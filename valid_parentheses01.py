@@ -1,5 +1,5 @@
 class Solution:
-    def isValid(self, s: str) -> bool:
+    def is_valid(self, s: str) -> bool:
         stack = []
         mapping = {'(':')','[':']','{':'}'}
         for ch in s:
@@ -16,7 +16,7 @@ class Solution:
 def main():
     s = "({[{}]})"
     sol = Solution()
-    print(sol.isValid(s))
+    print(sol.is_valid(s))
 
 
 if __name__ == "__main__":
