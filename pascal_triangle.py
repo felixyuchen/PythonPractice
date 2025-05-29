@@ -1,3 +1,4 @@
+# 118
 from typing import List
 
 
@@ -13,11 +14,7 @@ class Solution:
         return triangle
 
 
-def main():
+if __name__ == "__main__":
     numbers = 5
     sol = Solution()
     print(sol.generate(numbers))
-
-
-if __name__ == "__main__":
-    main()
