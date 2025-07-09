@@ -1,4 +1,4 @@
-# 150
+# 150，计算逆波兰表示法
 from typing import List
 
 

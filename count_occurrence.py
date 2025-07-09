@@ -1,3 +1,4 @@
+#统计列表中每个元素出现的次数，并将结果打印出来。
 from collections import Counter
 
 

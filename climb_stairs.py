@@ -1,3 +1,5 @@
+#70
+#你在爬楼，需要走n步到楼顶，每一次你可以走一步或者两步。问，你有多少种走法。
 class Solution:
     def climb_stairs(self, n: int) -> int:
         if n <= 2:

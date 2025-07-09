@@ -1,3 +1,4 @@
+#计算二维数组（矩阵）中每一列的元素之和，并以列表形式返回
 def column_sum(matrix):
     if not matrix:
         return []

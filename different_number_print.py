@@ -1,6 +1,5 @@
+#打印出只出现一次的字符串
 from collections import Counter
-
-
 def different_number(arr):
     return Counter(arr)
 

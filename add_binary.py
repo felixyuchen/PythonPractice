@@ -1,3 +1,5 @@
+#67
+#给定2个二进制字符串，将其相加成为一个二进制字符串
 class Solution:
     def add_binary(self, a: str, b: str) -> str:
         # return bin(int(bin(int(a))[2:])+int(bin(int(b))[2:]))[2:]

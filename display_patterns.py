@@ -1,3 +1,12 @@
+#打印如下图像
+#                      1
+#                   2  1
+#                3  2  1
+#             4  3  2  1
+#          5  4  3  2  1
+#       6  5  4  3  2  1
+#    7  6  5  4  3  2  1
+# 8  7  6  5  4  3  2  1
 def display_patterns(n):
     space = " "
     for i in range(1, n + 1):
@@ -14,7 +23,7 @@ def main():
         user_input = input("Please enter 1-99: ")
         try:
             number_input = int(user_input)
-            if number_input >= 1 and number_input < 100:
+            if 1 <= number_input < 100:
                 valid = False
             else:
                 print("Invalid number.Please enter again")

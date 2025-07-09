@@ -1,5 +1,5 @@
+#从一副洗牌后的 52 张扑克牌中，每 4 张分成一组，统计有多少组的点数总和为 24
 import random
-
 
 def create_deck():
     deck = []

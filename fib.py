@@ -1,3 +1,4 @@
+#返回一个长度为 n 的斐波那契数列。
 def fib(n) -> list:
     first, second = 0, 1
     my_list = [first, second]
