@@ -7,6 +7,8 @@ class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
+
+
 class Solution:
     def reorder_list(self, head: Optional[ListNode]) -> None:
         if not head or not head.next:
@@ -16,6 +18,3 @@ class Solution:
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
-
-
-

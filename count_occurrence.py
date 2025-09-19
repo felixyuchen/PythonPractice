@@ -12,7 +12,7 @@ def main():
     count = count_occurrence(arr)
     print(count)
     for key, value in count.items():
-        print(f"{key}:{value}")
+        print(f"{key}:{value}", end=" ")
 
 
 if __name__ == "__main__":
